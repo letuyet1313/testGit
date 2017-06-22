@@ -1,41 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11299" started-at="2017-06-15T02:01:01Z" finished-at="2017-06-15T02:01:13Z">
+  <suite name="Default suite" duration-ms="25" started-at="2017-06-22T10:23:24Z" finished-at="2017-06-22T10:23:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11299" started-at="2017-06-15T02:01:01Z" finished-at="2017-06-15T02:01:13Z">
-      <class name="TestButton01">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestButton01@26be92ad]" name="setUp" is-config="true" duration-ms="9170" started-at="2017-06-15T09:01:01Z" finished-at="2017-06-15T09:01:10Z">
+    <test name="Default test" duration-ms="25" started-at="2017-06-22T10:23:24Z" finished-at="2017-06-22T10:23:24Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="FAIL" signature="beforeTest(java.lang.String)[pri:0, instance:automationFramework.MultiBrowser@3bfdc050]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-22T17:23:24Z" finished-at="2017-06-22T17:23:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\Teko\AppData\Local\Temp\testng-eclipse-587146671\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\Teko\AppData\Local\Temp\testng-eclipse-587146671\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Button1IsDisplay()[pri:0, instance:TestButton01@26be92ad]" name="Button1IsDisplay" duration-ms="28" started-at="2017-06-15T09:01:10Z" finished-at="2017-06-15T09:01:10Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:automationFramework.MultiBrowser@3bfdc050]" name="login" duration-ms="0" started-at="2017-06-22T17:23:24Z" finished-at="2017-06-22T17:23:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\Teko\AppData\Local\Temp\testng-eclipse-587146671\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method beforeTest but has not been marked @Optional or defined
+in C:\Users\Teko\AppData\Local\Temp\testng-eclipse-587146671\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Button1IsDisplay -->
-        <test-method status="PASS" signature="Button1IsEnable()[pri:0, instance:TestButton01@26be92ad]" name="Button1IsEnable" duration-ms="16" started-at="2017-06-15T09:01:10Z" finished-at="2017-06-15T09:01:11Z">
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:automationFramework.MultiBrowser@3bfdc050]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-22T17:23:24Z" finished-at="2017-06-22T17:23:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Button1IsEnable -->
-        <test-method status="PASS" signature="Button1IsSelected()[pri:0, instance:TestButton01@26be92ad]" name="Button1IsSelected" duration-ms="16" started-at="2017-06-15T09:01:11Z" finished-at="2017-06-15T09:01:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Button1IsSelected -->
-        <test-method status="PASS" signature="DisplayLabelButton01()[pri:0, instance:TestButton01@26be92ad]" name="DisplayLabelButton01" duration-ms="30" started-at="2017-06-15T09:01:11Z" finished-at="2017-06-15T09:01:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DisplayLabelButton01 -->
-        <test-method status="PASS" signature="SubmitButton1()[pri:0, instance:TestButton01@26be92ad]" name="SubmitButton1" duration-ms="888" started-at="2017-06-15T09:01:11Z" finished-at="2017-06-15T09:01:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SubmitButton1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestButton01@26be92ad]" name="tearDown" is-config="true" duration-ms="1109" started-at="2017-06-15T09:01:11Z" finished-at="2017-06-15T09:01:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestButton01 -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- automationFramework.MultiBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
